@@ -1,6 +1,7 @@
 package ejercicio2;
 
 public class DireccionCorreo {
+    static final String SERVIDOR = "esei.uvigo.es";
     String nombre;
     String apellidos;
     String usuario;
