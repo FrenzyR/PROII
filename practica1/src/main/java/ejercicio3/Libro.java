@@ -5,9 +5,9 @@ public class Libro {
     String author;
     String editorial;
     int year;
-    int ISBN;
+    double ISBN;
 
-    public Libro(String title, String author, String editorial, int year, int ISBN){
+    public Libro(String title, String author, String editorial, int year, double ISBN){
         this.title = title;
         this.author = author;
         this.editorial = editorial;
@@ -17,7 +17,7 @@ public class Libro {
 
     @Override
     public String toString() {
-        return super.toString(); /*TODO example :
+        return "Titulo = " + this.title + "\nAutores = " + this.author + "\nEditorial = " + this.editorial + "\nAño = " + this.year + "\nISBN = " + this.ISBN; /*TODO example :
                                         Titulo = Thinking in Java
                                         Autores = Bruce Eckel
                                         Editorial = Prentice Hall
